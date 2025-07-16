@@ -8,7 +8,7 @@ from docx import Document
 import google.generativeai as genai
 
 # Set your Gemini API key
-genai.configure(api_key="AIzaSyBshemiB4n-Zq7S1nKOZctmTfovGSYqn9M")  # Replace with your actual key
+genai.configure(api_key="Enter your Gemini Api Key Here")  # Replace with your actual key
 
 # PDF extractor
 def extract_text_from_pdf(file):
